@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @font-face {
+      font-family: "magoaDemo";
+      src: url(fonts/MagoaDemo.otf);
+    }
+  *{
+    font-family:MagoaDemo, sans-serif;
+
+  }
+    
+
+
+  
+    sub{font-size: small;
+
+    }
+    .ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #48a062;
+}
+
+.li {
+  float: left;
+}
+
+.li a {
+  display: block;
+  color: rgb(211, 198, 198);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+body{
+  background-color: #9fe9a0;
+}
+.intro{
+background-image:url("image2.jpg");
+border: solid black 1px ;
+opacity: 0.8;
+background-size: cover;
+height: 500px;
+width: 1500px;
+font-size: larger;
+transition: 0.1s;
+color: #ffffff;
+border-radius: 20px;
+  
+}
+.intro:hover{
+background-image:url("image2.jpg");
+border: solid black 1px ;
+opacity: 1;
+background-size: cover;
+height: 609px;
+width: 1508px;
+transition: 0.1s;
+color: white;
+font-size:x-large;
+border-radius: 20px;
+  
+}
+.hintro{
+  /* color: white; */
+  text-decoration: underline;
+  text-align: center;
+}
+.pintro{
+  /* color: #111; */
+  transition: 0.1s;
+}
+.pintro:hover{
+  /* color: green; */
+  transition: 0.1s;
+}
+.obj{
+background-image:url("chris-yang-zpG3x9pXS_8-unsplash.jpg");
+border: solid black 1px ;
+opacity: 0.8;
+background-size: cover;
+height: 500px;
+width: 1500px;
+transition: 0.1s;
+color: #ffffff;
+border-radius: 20px;
+font-size: larger;
+}
+.obj:hover{
+  background-image:url("chris-yang-zpG3x9pXS_8-unsplash.jpg");
+border: solid black 1px ;
+opacity: 1;
+background-size: cover;
+height: 650px;
+width: 1508px;
+transition: 0.1s;
+color: white;
+font-size:x-large;
+border-radius: 20px;
+}
+.heading{
+  text-align: center;
+  font-size: xx-large;
+  color: #1a1717;
+}
+li a{
+  color: white;
+}
+.deve{
+  background-image: url("image1.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  opacity: 0.8;
+height:800px;
+width: 1500px;
+transition: 0.1s;
+color: #ffffff;
+border-radius: 20px;
+
+}
+.deve:hover{
+  border: solid black 1px ;
+opacity: 1;
+background-size: cover;
+height: 800px;
+width: 1508px;
+transition: 0.1s;
+color: white;
+font-size:x-large;
+border-radius: 20px;
+}
+.new_rule{
+  /* font-size: x-large; */
+  text-decoration: underline;
+  padding:2%;
+  color: white;
+}
+.new_rule:hover{
+  font-size: xx-large;
+  text-decoration: underline;
+  padding:2%;
+  color: white;
+}
+.deve_pn{
+  padding: 5px;
+  color: white;
+  transition: 0.1s;
+  font-size: xx-large;
+}
+.deve_pn:hover{
+  padding: 5px;
+  color: white;
+  font-size: xx-large;
+  transition: 0.1s;
+}
+.ta{
+
+  width: 69%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  background-color: #888686;
+  font-size: 16px;
+  resize: none;
+  
+  
+
+}
+.ta:hover{
+
+width: 69%;
+height: 150px;
+padding: 12px 20px;
+box-sizing: border-box;
+border: 2px solid #000000;
+border-radius: 20px;
+background-color: #494848;
+font-size: 16px;
+resize: none;
+box-shadow:0px 0px 15px rgb(112, 111, 111);
+
+
+
+}
+.tech_{
+  color: #333;
+  font-size: xx-large;
+}
+.sub{
+  border-radius: 20px;
+  color: white;
+  background-color: #494848;
+  font-size: larger;
+}
+.sub:hover{
+  border-radius: 20px;
+  color: white;
+  background-color: #494848;
+  font-size: larger;
+  box-shadow:0px 0px 15px rgb(112, 111, 111);
+  border: solid white 1px;
+
+}
+.quote{
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  padding: 10%;
+}
+.extend{
+  color: white;
+  font-size: x-large;
+  transition: 0.2s;
+  opacity: 0.8;
+  background-image: url("xiaocong-yan-q8vYjpFFZvI-unsplash.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  padding: 2%;
+  opacity: 0.8;
+}
+.extend:hover{
+  color:white;
+  font-size: xx-large;
+  transition: 0.2s;
+  opacity: 1;
+  border: solid white 1px;
+
+}
+#p{
+  font-size: small;
+  transition: 0.3s;
+  
+}
+#p:hover{
+  font-size: large;
+  transition: 0.3s;
+  
+}
+.aware{
+  background-image: url("onehundredseventyfive-VaGU4lyb0gg-unsplash.jpg");
+  background-size: cover;
+  color: white;
+  padding: 2%;
+  font-size: x-large;
+  transition: 0.2s;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+.aware:hover{
+  background-image: url("onehundredseventyfive-VaGU4lyb0gg-unsplash.jpg");
+  background-size: cover;
+  color: white;
+  padding: 2%;
+  font-size: x-large;
+  transition: 0.2s;
+  border-radius: 20px;
+  opacity: 1;
+}
+.analysis{
+  background-image: url("clay-banks-EdscD_R28bM-unsplash.jpg");
+  background-size: cover;
+  color: white;
+  padding: 2%;
+  font-size: larger;
+  transition: 0.2s;
+  border-radius: 20px;
+  opacity: 0.8;
+
+}
+.analysis:hover{
+  background-image: url("clay-banks-EdscD_R28bM-unsplash.jpg");
+  background-size: cover;
+  color: white;
+  padding: 2%;
+  font-size: x-large;
+  transition: 0.2s;
+  border-radius: 20px;
+  opacity: 1;
+
+
+}
+
+
+    :root{
+        --green:#0d9979;
+    }
+    
+    .footer{
+        font-family: 'Open Sans', sans-serif;
+        margin:0; padding:0;
+        box-sizing: border-box;
+        text-transform: capitalize;
+        text-decoration: none;
+        transition: all .5s cubic-bezier(.37,1.14,.26,1.24);
+    }
+    .box{
+        font-family:MagoaDemo, sans-serif;
+    }
+    
+    *::selection{
+        background:var(--green);
+        color:#fff;
+    }
+    
+    html{
+        font-size: 62.5%;
+        overflow-x: hidden;
+    }
+    
+    .btn{
+        height:3.5rem;
+        width:15rem;
+        background:none;
+        outline:none;
+        border:.2rem solid var(--green);
+        color:var(--green);
+        font-size: 2rem;
+        margin:1rem 0;
+        cursor: pointer;
+        overflow: hidden;
+        z-index: 0;
+        position: relative;
+    }
+    
+    .btn::before, .btn::after{
+        position: absolute;
+        content: '';
+        top:0; left:0;
+        height:100%;
+        width: 100%;
+        background:var(--green);
+        z-index: -1;
+        transition: all 0.5s cubic-bezier(.37,1.14,.26,1.24);
+    }
+    
+    .btn::before{
+        clip-path: polygon(0 0, 0 0, 0 0);
+    }
+    
+    .btn:hover:before{
+        clip-path: polygon(0 0, 0 100%, 100% 0);
+    }
+    
+    .btn::after{
+        clip-path: polygon(100% 100%, 100% 100%, 100% 100%);
+    }
+    
+    .btn:hover:after{
+        clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+    }
+    
+    .btn:hover{
+        color:#fff;
+    }
+    
+    .heading{
+        text-align: center;
+        font-size: 4rem;
+        color:#555;
+        padding:1rem;
+        padding-top: 7rem;
+    }
+    
+    .heading i{
+        color:var(--green);
+        font-size: 2rem;
+    }
+    
+    
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background:#fff;
+        box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+        position: fixed;
+        top:0; left:0;
+        z-index: 1000;
+        padding: 1rem 5rem;
+        width: 100%;
+    }
+    
+    header .logo{
+        color:var(--green);
+        font-size: 3rem;
+    }
+    
+    header .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+    }
+    
+    header .navbar ul li{
+        margin:0 1rem;
+    }
+    
+    header .navbar ul li a{
+        font-size: 2rem;
+        color:#666;
+    }
+    
+    header .navbar ul li a:hover{
+        color:var(--green);
+    }
+    
+    header .fa-bars{
+        font-size: 3rem;
+        color:#666;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .home{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(../backgroung1.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .home .content{
+        text-align: center;
+        padding:1rem;
+    }
+    
+    .home .content h1{
+        font-size: 7rem;
+        color:var(--green);
+    }
+    
+    .home .content p{
+        font-size: 1.9rem;
+        color:#333;
+        padding:1rem 0;
+        width: 70rem;
+    }
+    
+    .about .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .about .row .image{
+        flex:1 1 40rem;
+        padding:2rem;
+    }
+    
+    .about .row .image img{
+        width: 100%;
+    }
+    
+    .about .row .content{
+        flex:1 1 40rem;
+        padding:2rem;
+    }
+    
+    .about .row .content h3{
+        font-size: 3rem;
+        color:var(--green);
+    }
+    
+    .about .row .content p{
+        font-size: 1.5rem;
+        color:#666;
+        padding:1rem 0;
+    }
+    
+    .about .box-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .about .box-container .box{
+        padding:2rem 1rem;
+        text-align: center;
+        border:.2rem solid var(--green);
+        flex:1 1 20rem;
+        margin:2rem;
+    }
+    
+    .about .box-container .box i{
+        color:var(--green);
+        font-size: 4rem;
+    }
+    
+    .about .box-container .box h3{
+        color:#333;
+        font-size: 2.5rem;
+        padding:1rem 0;
+    }
+    
+    .about .box-container .box p{
+        color:#666;
+        font-size: 1.7rem;
+    }
+    
+    .service{
+        background:#f0f0f0;
+        min-height: 100vh;
+    }
+    
+    .service .box-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 80%;
+        margin:0 auto;
+    }
+    
+    .service .box-container .box{
+        flex:1 1 25rem;
+        padding:2rem 1rem;
+        text-align: center;
+        background:#fff;
+        border:.2rem solid var(--green);
+        margin:2rem;
+        cursor: pointer;
+    }
+    
+    .service .box-container .box i{
+        color: var(--green);
+        font-size: 4rem;
+        padding:1rem 0;
+    }
+    
+    .service .box-container .box h3{
+        color: #333;
+        font-size: 2rem;
+    }
+    
+    .service .box-container .box p{
+        color: #666;
+        font-size: 1.5rem;
+        padding:1rem 0;
+    }
+    
+    .service .box-container .box a{
+        color:#333;
+        font-size: 1.7rem;
+    }
+    
+    .service .box-container .box a:hover{
+        color:var(--green);
+    }
+    
+    .service .box-container .box:hover{
+        box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+    }
+    
+    .project{
+        background:#333;
+        min-height: 100vh;
+    }
+    
+    .project .heading{
+        color:#fff;
+    }
+    
+    .project .box-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding:2rem 0;
+        width: 90%;
+        margin:0 auto;
+    }
+    
+    .project .box-container .box{
+        flex: 1 1 30rem;
+        height: 22rem;
+        box-shadow: 0 .3rem .5rem #000;
+        overflow: hidden;
+        position: relative;
+        margin:1rem;
+    }
+    
+    .project .box-container .box img{
+        height:100%;
+        width:100%;
+        object-fit: cover;
+    }
+    
+    .project .box-container .box .icons{
+        height:100%;
+        width:100%;
+        position: absolute;
+        top:100%; left: 0;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        background:linear-gradient(transparent, rgba(0,0,0,.7));
+        transform: scale(0);
+    }
+    
+    .project .box-container .box:hover .icons{
+        top:0;
+        transform: scale(1);
+    }
+    
+    .project .box-container .box .icons a{
+        font-size: 3rem;
+        color:#fff;
+        margin:3rem 0;
+        text-shadow: 0 .3rem .5rem #000;
+        transform: translateY(13rem);
+        transition-delay: calc(.2s * var(--i));
+    }
+    
+    .project .box-container .box:hover .icons a{
+        transform: translateY(0rem);
+    }
+    
+    .donate{
+        position: relative;
+        z-index: 0;
+        min-height: 100vh;
+        padding-bottom: 3rem;
+    }
+    
+    .donate .heading {
+        color:#fff;
+    }
+    
+    .donate .video-container video{
+        position: absolute;
+        top:0; left:0;
+        height:100%;
+        width:100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+    
+    .donate .form-container form{
+        width:80%;
+        margin:2rem auto;
+        padding:2rem;
+        background:rgba(255,255,255,.1);
+        backdrop-filter: blur(.4rem);
+        box-shadow: 0 .3rem .5rem #000;
+        text-align: center;
+        border-top: .1rem solid rgba(255,255,255,.3);
+        border-left: .1rem solid rgba(255,255,255,.3);
+    }
+    
+    .donate .form-container form .inputBox{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .donate .form-container form .inputBox input, select{
+        height:4rem;
+        width: 49%;
+        background:#fff;
+        color:#333;
+        padding:0 1rem;
+        margin:1rem 0;
+        font-size: 1.7rem;
+        outline: none;
+        border:none;
+    }
+    
+    .donate .form-container form textarea{
+        height:20rem;
+        width: 100%;
+        background:#fff;
+        color:#333;
+        padding:1rem;
+        margin:1rem 0;
+        font-size: 1.7rem;
+        outline: none;
+        border:none;
+        resize: none;
+    }
+    
+    .donate .form-container form input[type="submit"]{
+        color:#fff;
+        border-color: #fff;
+    }
+    
+    .donate .form-container form input[type="submit"]:hover{
+        color:var(--green);
+        border-color: var(--green);
+        background:#fff;
+    }
+    
+    .post{
+        min-height: 100vh;
+    }
+    
+    .post .box-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding:2rem 0;
+    }
+    
+    .post .box-container .box{
+        width: 35rem;
+        box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+        margin:2rem 1.5rem;
+    }
+    
+    .post .box-container .box img{
+        height: 23rem;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .post .box-container .box .content{
+        padding:1rem;
+    }
+    
+    .post .box-container .box .content span{
+        font-size: 1.5rem;
+        color:#666;
+    }
+    
+    .post .box-container .box .content span i{
+        padding:1rem 0;
+        color:var(--green);
+    } 
+    
+    .post .box-container .box .content h3{
+        font-size: 2.4rem;
+        color:#333;
+    }
+    
+    .post .box-container .box .content:hover h3{
+        text-decoration: underline;
+        color:var(--green);
+    }
+    
+    .post .box-container .box .content p{
+        color:#666;
+        font-size: 1.5rem;
+    }
+    
+    .footer{
+        background:#333;
+    }
+    
+    .footer .box-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 95%;
+        margin:0 auto;
+    }
+    
+    .footer .box-container .box{
+        margin:2rem;
+        flex:1 1 25rem;
+    }
+    
+    .footer .box-container .box .logo{
+        font-size: 3rem;
+        color:var(--green);
+    }
+    
+    .footer .box-container .box p{
+        font-size: 1.7rem;
+        color:#ccc;
+        padding:1rem 0;
+    }
+    
+    .footer .box-container .box .share{
+        text-align: center;
+        font-size: 3rem;
+        color:#fff;
+    }
+    
+    .footer .box-container .box:nth-child(2) a{
+        text-align: center;
+        font-size: 1.7rem;
+        color:#eee;
+        display: block;
+        padding:.5rem 0;
+    }
+    
+    .footer .box-container .box:nth-child(2) a:hover{
+        text-decoration: underline;
+    }
+    
+    .footer .box-container .box .letter{
+        font-size: 3rem;
+        color:#fff;
+    }
+    
+    .footer .box-container .box form input[type="text"]{
+        padding:0 1rem;
+        outline:none;
+        border:.2rem solid var(--green);
+        background:none;
+        font-size: 1.7rem;
+        color:#fff;
+        height:4rem;
+        width:74%;
+    }
+    
+    .footer .box-container .box form button{
+        outline:none;
+        border:none;
+        background:var(--green);
+        font-size: 1.9rem;
+        color:#fff;
+        height:4rem;
+        width:25%;
+        cursor: pointer;
+    }
+    
+    .footer .box-container .box form button:hover{
+        color:var(--green);
+        background:none;
+        border:.1rem solid var(--green);
+    }
+    
+    .footer .credit{
+        text-align: center;
+        color:#fff;
+        font-size: 2rem;
+        width:85%;
+        margin:0 auto;
+        padding:2rem 1rem;
+        border-top: .1rem solid #ccc;
+    }
+    
+    .footer .credit span{
+        color:var(--green);
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* media queries  */
+    
+    @media (max-width:768px){
+    
+        html{
+            font-size: 55%;
+        }
+    
+        header .fa-bars{
+            display: block;
+        }
+    
+        header .navbar{
+            position: fixed;
+            top:-100rem; left:0;
+            width: 100%;
+            border-top: .1rem solid #ccc;
+            opacity: 0;
+        }
+    
+        header .navbar ul{
+            flex-flow: column;
+            padding:2rem 0;
+            background-color: #fff;
+        }
+    
+        header .navbar ul li{
+            width: 100%;
+            text-align: center;
+            margin:1rem 0;
+        }
+    
+        header .navbar ul li a{
+            font-size: 3rem;
+            display: block;
+        }
+    
+        .fa-times{
+            transform: rotate(180deg);
+        }
+    
+        header .nav-toggle{
+            top:6rem; 
+            opacity: 1;
+        }
+    
+        .home .content h1{
+            font-size: 5rem;
+        }
+    
+        .home .content p{
+            width: auto;
+        }
+    
+        .service .box-container{
+            width: auto;
+        }
+    
+    }
+    
+    @media (max-width:500px){
+        .donate .form-container form .inputBox input, select{
+            width: 100%;
+        }
+        .donate .form-container form{
+            width: 90%;
+        }
+    }
+
+
+</style>
+
+<body>
+    <div class="heading"><h1>S<sub>Soul </sub>O<sub>Of </sub>S<sub>Soil</sub> </h1></div>
+    <!-- <div class="navigation"> -->
+        <ul class="ul">
+            <li class="li"><a href="#">Home</a></li>
+            <li class="li"><a href="news.html">More</a></li>
+            <li class="li"><a href="member.html">Member</a></li>
+            <li class="li"><a href="about.html">About Us</a></li>
+          </ul>
+          <br><br>
+    <!-- </div> -->
+    <div class="intro">
+      <span class="hintro"><h1>INTRODUCTION</h1></span>
+        <div class="pintro">
+          <p>soil pollution is defined as the presences of toxic chemicals
+            (pollutants or contaminents ) in soil. In high enough concentration to pose a risk to human health and for ecosystem. In this case of contaminents which occurs naturally in soil, even when their levels are not high enough to pose a risk. soil pollution is still said to occur if the level of the contaminents in soil exceed the level that should naturally be present.<br><br>
+
+            soil contamination, soil pollution or land pollution as a part of land degredation is caused by the presence of Xenobiolic (human-made) chemicals or other alternation in the natural soil enviroment. It is typically caused by industrial activities, agricultural chemical or improper disposal of waste. The most common chemicals involved. are petroleum, hydrocarbons, polynuclear aromatic hydrocarbons(such as naphthalene and benzo(a)pyrene), solvents, pesticides, lead and other heavy metals. contamination is correlates with the degree of industrialization and intensity of chemical substances.<br><br>
+
+            the concern over soil contamination stemps primarly from health risks, from direct contact with the contaminented soil, vapur from the contaminats, or from secondary contamination of water supplies within and underlying soil, mappiry of contaminated soil sites. and resulting cleanups are time-consuming and expensive task, required entensive amount of everything.
+
+          </p>
+        </div>
+      </div>
+      <br>
+  <div class="obj">
+    <span class="h-obj"><h1><u>OBJECTIVES</u></h1></span>
+    <div class="pobj">
+      we have many motives behind implementing the project because there is a <span class="pp">PURPOSE</span> behind every project. <br><br>
+      <div class="objp">
+        <span class="objpp">Our purpose behind composing this project.</span>
+         <div class="points">
+          <ul class="point">
+            <li><a href="#develop"> Develops new Rules and Techniques.</a></li><br>
+            <li><a href="#extend">Extend knowledge human Begins.</a></li><br>
+            <li><a href="">Create awareness among the people.</a></li><br>
+            <li><a href="#ana">Analyse an event, process and pnenomena.</a></li><br>
+            <li><a href="">Plan for future benifits.</a></li>
+          </ul>
+         </div>
+      </div>
+    </div>
+    </div><br>
+    <div class="deve" id="develop">
+      <span class="new_rules"><center><h1><u>DEVELOP NEW RULES AND TECHNIQUES</u></h1></center></span>
+      <div class="deve_img"></div>
+        <div class="deve_p">
+          <ul class="deve_pn">
+            <li>Eat sustainable foodstuffs, properly recycle batteries, produce homemade compost and dispose of drugs in the places authorised for this purpose.</li><br>
+            <li>Encourage a more eco-friendly model for industry, farming and stock breeding, among other economic activities</li><br>
+            <li>Improve the management of mining waste, restore the landscape and conserve topsoil.</li><br>
+            <li>Involve local communities and indigenous peoples in the design, implementation and assessment of sustainable land and soil management.</li>
+          </ul>
+          <div class="tech">
+            <span class="tech_"><center></span><b>Did you have something to share or Contribute?</b></span></center> <br>
+            <center><textarea name="" class="ta" cols="100" rows="1">share with us..</textarea></center> 
+            <div class="submit">
+              <center><button class="sub">thank you.</button></center>
+            </div>
+          </div> 
+      </div>
+    </div><br>
+    <div class="quote">"Considering that just one teaspoon of soil can hold more organisms than there are people on the whole planet, we think that our soils are well worth protecting!"</div>
+    <div class="extend" id="extend">
+      <span class="extented"><center><h1><u>Extend Knowledge human Begins.</u></h1></center></span>
+        <div class="imge"></div>
+          <div class="exten_para">
+            <ul>
+              <li>Grow your own:<br><p id="p">In your own back garden, on a windowsill or on a shared allotment, growing your own is the most environmentally-friendly way to get your food.
+
+                Growing different vegetables and plants in your garden will help recycle nutrients back into the soil, with the added benefit of reconnecting you with where food comes from.
+                
+                Remember: Leaving soil bare is not good for its health; rain can wash away soil nutrients—and even the soil itself, so make sure you keep it covered, with plants, edible crops and cover crops.  
+                </p></li><br>
+              <li>Compost<br><p id="p">Organic matter is the parts of soil that originate from plants or animals. It's an essential ingredient in healthy soils, helping it hold onto nutrients and water. In  agroecological ways of farming, like organic, farmers use around 65% more manure and compost! As a result, soil organic matter is higher on organic farms.
+
+                An easy way to boost soil organic matter is to apply compost - this will ‘feed’ your soil with a diversity of nutrients and microorganisms.</p></li><br>
+              <li>Grow soil saving plants<br><p id="p">Another way of saving soil at home is to plant flowers and plants that are beneficial to soil health. There are plenty of species you can plant in your garden or shared outdoor space that will be beneficial to your soil.
+
+                Plants that pull nitrogen from the air help increase the fertility of your soils, while deep-rooting plants stop compaction, promote healthy soil structure, and draw up nutrients deeper in the soil for use by other plants.</p></li><br>
+              <li>Support soil-friendly agroecological farming<br><p id="p">The way we eat and farm can make a world of difference for our soils. Opting to support agroecological farming, like organic, in your local area means casting a vote for a way of is based on nourishing plants by building soil fertility naturally.</p></li><br>
+              <li>Speak out for soil<br><p id="p">Raising awareness about the issue of soil degradation is a really important; let's keep growing this movement from the ground up! Share this information with friends and family, and help them to start saving their own soils at home too.
+
+                Together, we can use our power as citizens to influence the Government to acknowledge the vital role of soils and commit to prioritising soil health.</p></li>
+            </ul>
+            
+          </div>
+
+    </div>  <br>
+    <div class="aware">
+      <span class="awares"><h1><u><center>Create awareness among the people.</center></u></h1></span>
+        <div class="imga"></div>
+          <div class="awarep">
+            <p>
+              <ul>
+                <li>Get a better understanding of the soil environment quality baseline.<br><p>Poor utilization of land is a major concern in the prevention and control of soil pollution. Agricultural land pollution usually causes the loss of soil fertility as it involves the loss of organic matter, topsoil and nutrients, and the soil’s ability to retain water. In agricultural land management, ideal soil conservation methods include mechanical and biological control techniques.
+
+                  The biological method refers to forestry and crop-related soil management. The crop related control measures include crop rotation, strip cropping, planting along the contours, protector belt, crop residues, and use of organic composts. Forests also play an important role in preventing soil erosion.
+                  
+                  Developing forests in new areas can help reduce erosion caused by rainwater and air thus ensuring increased soil fertility and formation. In areas with excessive pollution or surface degradation, reforestation should be done. The mechanical method of soil pollution control includes the use of contour holding system, gully control, and making bunds. In excessive sloping areas, making bunds across the slope helps to prevent erosion.</p></li>
+                <li>Develop necessary legislation on soil pollution control<br><p>It is important to dispose of solid waste properly by treated it before it’s released into the environment. Acidic and alkaline waste, for example, can be neutralized before they are disposed of to avoid soil contamination. Biodegradable waste should also be broken down in a controlled environment before it is released into the environment. A great example is the proper treatment of sewage sludge.
+
+                  The waste materials should also be categorized based on the degree of contamination. Materials that are mildly or moderately contaminated should be treated in controlled environments before release into the natural environments while those that are heavily contaminated should be put under strict management, treatment, and control</p></li>
+                <li>Proper management of agricultural land and the practice of organic farming<br><p>Poor utilization of land is a major concern in the prevention and control of soil pollution. Agricultural land pollution usually causes the loss of soil fertility as it involves the loss of organic matter, topsoil and nutrients, and the soil’s ability to retain water. In agricultural land management, ideal soil conservation methods include mechanical and biological control techniques.
+
+                  The biological method refers to forestry and crop-related soil management. The crop related control measures include crop rotation, strip cropping, planting along the contours, protector belt, crop residues, and use of organic composts. Forests also play an important role in preventing soil erosion.
+                  
+                  Developing forests in new areas can help reduce erosion caused by rainwater and air thus ensuring increased soil fertility and formation. In areas with excessive pollution or surface degradation, reforestation should be done. The mechanical method of soil pollution control includes the use of contour holding system, gully control, and making bunds. In excessive sloping areas, making bunds across the slope helps to prevent erosion.</p></li>
+                <li>Proper Solid Waste Treatment<br><p>It is important to dispose of solid waste properly by treated it before it’s released into the environment. Acidic and alkaline waste, for example, can be neutralized before they are disposed of to avoid soil contamination. Biodegradable waste should also be broken down in a controlled environment before it is released into the environment. A great example is the proper treatment of sewage sludge.
+
+                  The waste materials should also be categorized based on the degree of contamination. Materials that are mildly or moderately contaminated should be treated in controlled environments before release into the natural environments while those that are heavily contaminated should be put under strict management, treatment, and control.</p></li>
+                <li> Ensure proper investigation of reclaimed land<br><p>When dealing with land that is expected to be reclaimed and used for other purposes such as the construction of residential homes or social amenities like schools as it is in the case of mining, there is need to conduct soil investigation and evaluation. The mandate of testing the contamination levels of such lands should be given to the city or government unit in charge.
+
+                  The results from the test should then be used in establishing practical management and control measures depending on the purpose of the land. If the results show the reclaimed land is polluted, any scheduled activity on the land must be suspended and the responsible body must take the necessary precautions to not only manage and mitigate the risks but to also prevent the contamination of adjacent soils.</p></li>
+              </ul>
+            </p>
+          </div>
+    </div>
+    <br>
+    <div class="analysis" id="ana">
+      <span class="headana"><center><u><h1>Analyse an event, process and pnenomena</h1></u></center></span>
+        <div class="imgana"></div>
+          <div class="paraana">
+            The consumption of petroleum oil and lubricants (POL) in field missions is
+            equipment to support peacekeeping operations. Through these processes, which
+            have a major environmental footprint, the potential of soil contamination arises.
+            This section presents a case study of remediation work conducted by Global Service
+            Centre/Environmental Technical Support Unit on POL polluted sites during the
+            liquidation of a United Nations field operation in Côte d’Ivoire (ONUCI).
+            <br><br>
+            The goal of the project was to reduce the level of total petroleum hydrocarbon
+            (TPH) in polluted soil (36 000 to 75 000 mg/kg) to a background TPH level of 400
+            to 1 000 mg/kg, providing an enabling environment for revegetation of plants. The
+            project entailed the removal of over 1 200 tonnes of POL contaminated soil from
+            sites and replacing it with fresh soil. <br><br> The excavated contaminated soil was treated
+            using naturally occurring materials derived locally
+            inevitable due to their use in generating electricity and operating mechanical.
+            
+            aerate in order to promote microbial growth and the breaking down of POL.
+            Two ingredients (poultry waste and naturally occurring surface active materials
+            (NOSAM) or palm ash soap (also known as black soap)) were added to the mix to
+            improve the condition of the soil and to accelerate the microbial remediation.
+            The result showed a reduction of over 95 percent in TPH levels immediately after
+            remediation, with natural microbial activities ensuring more reduction in TPH
+            within a 14-day period. Native grasses were planted in the restored areas. The case
+            study highlights the importance of implementing low cost remediation techniques
+            in mitigating POL polluted sites within the UN field missions.
+          </div>
+    </div>
+
+
+    <section class="footer">
+
+      <div class="box-container">
+      
+          <div class="box">
+              <a href="#" class="logo"><i class="fa fa-globe" aria-hidden="true"></i>soil</a>
+              <p>pollution is a growing threat,
+                  Affecting health and environment we get,
+                  Let's take action and not just fret,
+                  Be the solution, and our planet protect.</p>
+          </div>
+      
+          <div class="box">
+              <h3 class="share">share</h3>
+              <a href="https://www.facebook.com/">facebook</a>
+              <a href=https://github.com/amansharma2380>Github</a>
+              <a href="https://www.instagram.com/">instagram</a>
+          </div>
+      
+          <div class="box">
+              <h3 class="letter">Give your Review</h3>
+              <form action="">
+                  <input type="text" placeholder="enter feedback">
+                  <button type="submit" class="fas fa-paper-plane"></button>
+              </form>
+          </div>
+      
+      </div>
+      
+      <h1 class="credit">created by <span> RISHABH RAJ, ADARSH & ARION</span> | all rights reserved. </h1>
+      
+      </section>
+      
+
+
+
+  <!-- </div> -->
+</body>
+</html>
